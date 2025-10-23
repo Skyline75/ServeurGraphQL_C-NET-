@@ -1,4 +1,4 @@
-Salut -_-
+Salut -_- crée par Julien Carreira
 
 Il faut juste lancer le .EXE, le serveur marche que avec des POST.
 
