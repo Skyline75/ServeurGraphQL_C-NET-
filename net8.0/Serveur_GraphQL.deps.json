@@ -1,0 +1,87 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Serveur_GraphQL/1.0.0": {
+        "dependencies": {
+          "GraphQL": "8.6.0",
+          "GraphQL.SystemTextJson": "8.6.0"
+        },
+        "runtime": {
+          "Serveur_GraphQL.dll": {}
+        }
+      },
+      "GraphQL/8.6.0": {
+        "dependencies": {
+          "GraphQL-Parser": "9.5.0",
+          "GraphQL.Analyzers": "8.6.0"
+        },
+        "runtime": {
+          "lib/net6.0/GraphQL.dll": {
+            "assemblyVersion": "8.6.0.0",
+            "fileVersion": "8.6.0.0"
+          }
+        }
+      },
+      "GraphQL-Parser/9.5.0": {
+        "runtime": {
+          "lib/net6.0/GraphQLParser.dll": {
+            "assemblyVersion": "9.5.0.0",
+            "fileVersion": "9.5.0.0"
+          }
+        }
+      },
+      "GraphQL.Analyzers/8.6.0": {},
+      "GraphQL.SystemTextJson/8.6.0": {
+        "dependencies": {
+          "GraphQL": "8.6.0"
+        },
+        "runtime": {
+          "lib/net6.0/GraphQL.SystemTextJson.dll": {
+            "assemblyVersion": "8.6.0.0",
+            "fileVersion": "8.6.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Serveur_GraphQL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphQL/8.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hssko835s4pfBq9mD2zV2I03/RR3Z8WXr87Ulvzeu2L2GbdSzMdFQgvoF/Jyevb5G1oJwS1+AhyUtxHG9OArZw==",
+      "path": "graphql/8.6.0",
+      "hashPath": "graphql.8.6.0.nupkg.sha512"
+    },
+    "GraphQL-Parser/9.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5XWJGKHdVi8pyD4P0EglmJmlXEGs0HzvGlEBf3+/Ve1jLYBBKIOkKvY0Ej17b9Kn1bbBxkrmghqbmsMbkLL1nQ==",
+      "path": "graphql-parser/9.5.0",
+      "hashPath": "graphql-parser.9.5.0.nupkg.sha512"
+    },
+    "GraphQL.Analyzers/8.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MMYCNRuBPVPe8+ajOsykbO7fPtCZ9juKExvflABR3yXssjlJAc64to4UG8FIJjQcOzodYS91y5Ld/faMY0OKgg==",
+      "path": "graphql.analyzers/8.6.0",
+      "hashPath": "graphql.analyzers.8.6.0.nupkg.sha512"
+    },
+    "GraphQL.SystemTextJson/8.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hz9aoXa8I3E5bCODXbcuVk9gH5YMw84E9iFT0lZBWbVWUdVxoYHsGJ5/N1iMXB3WukbWwq7eChQ06+Oqx0m2hg==",
+      "path": "graphql.systemtextjson/8.6.0",
+      "hashPath": "graphql.systemtextjson.8.6.0.nupkg.sha512"
+    }
+  }
+}
